@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.title {
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 126px;
+}
+
+.subtitle {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 29px;
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 62px;
+}
+
+.numberInput {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    width: 342px;
+    height: 74px;
+    border: 1px solid #FFFFFF33;
+    border-radius: 14px;
+    background-color: #FFFFFF40;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 15px;
+    margin-bottom: 40px;
+
+}
+
+#result {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    width: 342px;
+    height: 74px;
+    border: 1px solid #FFFFFF33;
+    border-radius: 14px;
+    background-color: #FFFFFF40;
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.numberInput::-webkit-outer-spin-button,
+::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.drawButton {
+    margin-top: 79px;
+    background-color: #AEC346;
+    color: white;
+    width: 342px;
+    height: 72px;
+    border: none;
+    border-radius: 10px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 2.5px;
+}
+
+.drawButton:hover {
+    background-color: #AEC346CC;
+    cursor: pointer;
+}
