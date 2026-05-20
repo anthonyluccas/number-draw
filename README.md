@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="./img/demonstração.gif" alt="Demonstração do Sorteador de Números" width="100%">
+  <img src="./img/demonstração.gif" alt="Demonstração do Sorteador de Números" width="100%" autoplay>
 </p>
 
 Um sorteador de números inteiros aleatórios simples, elegante e responsivo, construído com tecnologias web fundamentais (HTML, CSS e JavaScript). O projeto permite que o usuário defina um intervalo numérico customizado e realize o sorteio de um valor contido nele com apenas um clique.
